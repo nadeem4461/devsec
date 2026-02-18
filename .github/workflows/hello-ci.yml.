@@ -1,0 +1,8 @@
+name: Greeting Workflow
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a greetingmit the file, here is a quick "translation" of what that YAML code is telling GitHub to do:
