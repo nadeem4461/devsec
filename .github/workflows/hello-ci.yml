@@ -5,4 +5,5 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Run a greetingmit the file, here is a quick "translation" of what that YAML code is telling GitHub to do:
+      - name: Run a greeting
+        run: echo "The CI pipeline has successfully started!"
